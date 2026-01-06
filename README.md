@@ -124,19 +124,19 @@ vLLM is an efficient and easy-to-use library for LLM inference and serving.
 
 **For NVIDIA GPUs:**
 ```bash
-# Install CUDA Toolkit (12.1+)
+# Install CUDA Toolkit (minimum 12.1, latest recommended)
 # Download from: https://developer.nvidia.com/cuda-downloads
 
-# Install PyTorch with CUDA support
+# Install PyTorch with CUDA support (example uses CUDA 12.1, adjust version as needed)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
 **For AMD GPUs:**
 ```bash
-# Install ROCm (5.7+)
+# Install ROCm (minimum 5.7, latest recommended)
 # Follow: https://rocm.docs.amd.com/en/latest/deploy/linux/quick_start.html
 
-# Install PyTorch with ROCm support
+# Install PyTorch with ROCm support (example uses ROCm 5.7, check compatibility)
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm5.7
 ```
 
@@ -161,10 +161,11 @@ pip install triton
 pip install vllm
 
 # For AMD ROCm
-pip install vllm  # Use ROCm-compatible wheel
+# Install from source with ROCm support or follow official documentation
+# See: https://docs.vllm.ai/en/latest/getting_started/amd-installation.html
 
 # For Intel (experimental)
-# Follow Intel-specific installation instructions
+# Follow Intel-specific installation instructions from vLLM documentation
 ```
 
 ## 📖 Learning Path
