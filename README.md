@@ -191,7 +191,7 @@ pip install vllm
 ## 🛠️ Development Tools
 
 ### Profiling and Debugging
-- **NVIDIA**: `nsys`, `ncu`, `nvprof`
+- **NVIDIA**: `nsys` (Nsight Systems), `ncu` (Nsight Compute)
 - **AMD**: `rocprof`, `rocgdb`, `omniperf`
 - **Intel**: `VTune Profiler`, `Advisor`
 - **Triton**: Built-in profiler and autotuner
